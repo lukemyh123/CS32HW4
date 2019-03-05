@@ -1,4 +1,4 @@
-void listAll(string path, const MenuItem* m) // two-parameter overload
+/*void listAll(string path, const MenuItem* m) // two-parameter overload
 {
 	if (m->menuItems() == nullptr)  //base case
 		return;
@@ -8,4 +8,4 @@ void listAll(string path, const MenuItem* m) // two-parameter overload
 		if ((*it)->menuItems() != nullptr)
 			listAll(path + (*it)->name() + "/", (*it));
 	}
-}
+}*/
